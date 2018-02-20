@@ -1,0 +1,164 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    font-family: 'Lato', sans-serif;
+}
+
+header, section, footer {
+    width: 100%;
+}
+
+ .box::before,
+ .box::after {
+    content: "";
+    display: block;
+    clear: both;
+}
+
+/* ------------- */
+/* -- HEADER -- */
+/* ------------- */
+
+header {
+    height: 100vh;
+    background-image: url("../images/background.jpg");
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    color: #fff;
+}
+
+nav {
+   padding: 27px 0; 
+}
+
+.container {
+    margin: 0 auto;
+    width: 920px;
+}
+
+.logo {
+    width: 100px;
+    height: 20px;
+}
+
+.main-nav {
+    float: right;
+    list-style: none;
+}
+
+.main-nav li {
+    float: left;
+    padding: 0 25px;
+}
+
+.main-nav li:first-child {
+    padding-left: 0;
+}
+
+.main-nav li:last-child {
+    padding-right: 0;
+}
+
+.wrapper {
+    margin-top: 170px;
+}
+
+.text {
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 26px;
+}
+
+.heading {
+    padding: 20px 0 50px 0;
+    font-size: 60px;
+    font-weight: 400;
+    line-height: 60px;
+    text-transform: uppercase;
+}
+
+button {
+    border: 0;
+    width: 200px;
+    height: 70px;
+    border-radius: 5px;
+    font-size: 20px;
+    font-weight: 400;
+    color: #fff;
+    background-color: rgb(241, 31, 31);
+}
+
+/* ------------- */
+/* -- SECTION -- */
+/* ------------- */
+
+section {
+    background-color: #ededed;
+}
+
+.title-box {
+    float: left;
+    width: 50%;
+}
+
+.title {
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 50px;
+    color: rgb(63, 49, 49);
+    text-transform: uppercase;
+    padding: 175px 0;
+}
+
+article {
+    padding: 125px 0;
+}
+
+article p {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 28px;
+    color: #b7b7b7;
+}
+
+article p:last-child {
+    padding-top: 26px;
+}
+
+/* ------------- */
+/* -- FOOTER -- */
+/* ------------- */
+
+footer {
+    background-color: #000;
+    color: #474747;
+}
+
+footer img {
+    margin: 35px 0;
+}
+
+.box {
+    padding-bottom: 90px;
+}
+
+.footer-nav {
+    list-style: none;
+}
+
+.box-left {
+    float: left;
+    width: 230px;
+    line-height: 40px;
+}
+
+.box-right {
+    float: right;
+    width: 230px;
+    line-height: 30px;
+}
